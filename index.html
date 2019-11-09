@@ -25,8 +25,7 @@
 <!-- ----------------------------------------------------------------------------------->
 
 <body style="margin : 0px; overflow: hidden;">
-  
-  
+
   <!-- add some info at the top of the page-->
 	<div style="position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;">
 		<h1 color = "F21BEF"><a href="aidan.rafferty.com">wHaT iS tHiS?!</a></h1>
@@ -35,7 +34,6 @@
 
   <!--This gives the script the ability to use the camera-->
   <a-scene embedded arjs="sourceType: webcam;">
-
 
     <a-box position="0 0.5 0" material="opacity: 0.5; side:double; color:red;">
 				<a-torus-knot radius="0.26" radius-tubular="0.05"
@@ -46,6 +44,7 @@
     
       <!-- define a camera which will move according to the marker position -->
 	<a-marker-camera preset="hiro"></a-marker-camera>
+
 
 	</a-scene>
 </body>
